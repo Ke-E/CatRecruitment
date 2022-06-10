@@ -1,0 +1,2617 @@
+{
+  "statuses": [
+    {
+      "created_at": "Wed Jun 08 12:56:29 +0000 2022",
+      "id": 1534519734539911168,
+      "id_str": "1534519734539911168",
+      "text": "生涯家族として慈しんでくださる方を募集\n神奈川県 ♀ 生後1ヶ月 の\"キャンディーズ\"ちゃんです。\n #猫 #ネコ #里親 #里親募集 #神奈川県 #拡散希望 \n詳細：https://t.co/75uuNdaBB2\n写真： https://t.co/YrbYgrdoXz",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              51,
+              53
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              54,
+              57
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              58,
+              61
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              62,
+              67
+            ]
+          },
+          {
+            "text": "神奈川県",
+            "indices": [
+              68,
+              73
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              74,
+              79
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/75uuNdaBB2",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176697/",
+            "display_url": "neko-jirushi.com/foster/176697/",
+            "indices": [
+              84,
+              107
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1534519732413792258,
+            "id_str": "1534519732413792258",
+            "indices": [
+              112,
+              135
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUu1kP9aAAIlxBy.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUu1kP9aAAIlxBy.jpg",
+            "url": "https://t.co/YrbYgrdoXz",
+            "display_url": "pic.twitter.com/YrbYgrdoXz",
+            "expanded_url": "https://twitter.com/kanagawa_foster/status/1534519734539911168/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1534519732413792258,
+            "id_str": "1534519732413792258",
+            "indices": [
+              112,
+              135
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUu1kP9aAAIlxBy.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUu1kP9aAAIlxBy.jpg",
+            "url": "https://t.co/YrbYgrdoXz",
+            "display_url": "pic.twitter.com/YrbYgrdoXz",
+            "expanded_url": "https://twitter.com/kanagawa_foster/status/1534519734539911168/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 472,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_kanagawa</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1841188466,
+        "id_str": "1841188466",
+        "name": "ネコジルシ里親募集《神奈川》",
+        "screen_name": "kanagawa_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。",
+        "url": "http://t.co/CHDKXd98g7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/CHDKXd98g7",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2763,
+        "friends_count": 1141,
+        "listed_count": 41,
+        "created_at": "Mon Sep 09 07:11:31 +0000 2013",
+        "favourites_count": 11,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9913,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000481860600/9e5eac3ee800aca0f05c6eedda4226c1_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000481860600/9e5eac3ee800aca0f05c6eedda4226c1_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1841188466/1495162306",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 25,
+      "favorite_count": 24,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Sun Jun 05 03:59:50 +0000 2022",
+      "id": 1533297518486114304,
+      "id_str": "1533297518486114304",
+      "text": "里親募集\n栃木県 ♂ 生後1才3ヶ月 の\"モカ\"ちゃんです。\n #猫 #ネコ #里親 #里親募集 #栃木県 #拡散希望 \n詳細：https://t.co/qEEiQeRCbl\n写真： https://t.co/jqf1IGmhon",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              32,
+              34
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              35,
+              38
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              39,
+              42
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              43,
+              48
+            ]
+          },
+          {
+            "text": "栃木県",
+            "indices": [
+              49,
+              53
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              54,
+              59
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/qEEiQeRCbl",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176409/",
+            "display_url": "neko-jirushi.com/foster/176409/",
+            "indices": [
+              64,
+              87
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1533297516925530112,
+            "id_str": "1533297516925530112",
+            "indices": [
+              92,
+              115
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUdd98dVsAAhSk9.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUdd98dVsAAhSk9.jpg",
+            "url": "https://t.co/jqf1IGmhon",
+            "display_url": "pic.twitter.com/jqf1IGmhon",
+            "expanded_url": "https://twitter.com/n_kanto_foster/status/1533297518486114304/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1533297516925530112,
+            "id_str": "1533297516925530112",
+            "indices": [
+              92,
+              115
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUdd98dVsAAhSk9.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUdd98dVsAAhSk9.jpg",
+            "url": "https://t.co/jqf1IGmhon",
+            "display_url": "pic.twitter.com/jqf1IGmhon",
+            "expanded_url": "https://twitter.com/n_kanto_foster/status/1533297518486114304/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_ibaraki</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1734297127,
+        "id_str": "1734297127",
+        "name": "ネコジルシ里親募集《北関東》",
+        "screen_name": "n_kanto_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。茨城、栃木、群馬の情報が流れます",
+        "url": "http://t.co/JpuMSn1g0S",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/JpuMSn1g0S",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 816,
+        "friends_count": 123,
+        "listed_count": 14,
+        "created_at": "Fri Sep 06 06:52:27 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 6282,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/773848233873334272/cBX6B5Ra_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/773848233873334272/cBX6B5Ra_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 3,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Sun Jun 05 01:29:10 +0000 2022",
+      "id": 1533259600887066624,
+      "id_str": "1533259600887066624",
+      "text": "縞三毛かわい子ちゃん家族募集\n千葉県 ♀ 生後2ヶ月 の\"まるちゃん\"ちゃんです。\n #猫 #ネコ #里親 #里親募集 #千葉県 #拡散希望 \n詳細：https://t.co/MZo2Z0fZgK\n写真： https://t.co/kB8kkV8Fhu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              43,
+              45
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              46,
+              49
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              50,
+              53
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              54,
+              59
+            ]
+          },
+          {
+            "text": "千葉県",
+            "indices": [
+              60,
+              64
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              65,
+              70
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/MZo2Z0fZgK",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176396/",
+            "display_url": "neko-jirushi.com/foster/176396/",
+            "indices": [
+              75,
+              98
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1533259599251263488,
+            "id_str": "1533259599251263488",
+            "indices": [
+              103,
+              126
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUc7e2HUUAAaZxb.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUc7e2HUUAAaZxb.jpg",
+            "url": "https://t.co/kB8kkV8Fhu",
+            "display_url": "pic.twitter.com/kB8kkV8Fhu",
+            "expanded_url": "https://twitter.com/chiba_foster/status/1533259600887066624/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1533259599251263488,
+            "id_str": "1533259599251263488",
+            "indices": [
+              103,
+              126
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUc7e2HUUAAaZxb.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUc7e2HUUAAaZxb.jpg",
+            "url": "https://t.co/kB8kkV8Fhu",
+            "display_url": "pic.twitter.com/kB8kkV8Fhu",
+            "expanded_url": "https://twitter.com/chiba_foster/status/1533259600887066624/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 382,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_chiba</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1839499669,
+        "id_str": "1839499669",
+        "name": "ネコジルシ里親募集《千葉》",
+        "screen_name": "chiba_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。",
+        "url": "http://t.co/suKweUMrUQ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/suKweUMrUQ",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1381,
+        "friends_count": 208,
+        "listed_count": 27,
+        "created_at": "Mon Sep 09 04:38:49 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 11155,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000481851188/fdf8a25c69a12052e8953d35f2c6d8d6_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000481851188/fdf8a25c69a12052e8953d35f2c6d8d6_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 10,
+      "favorite_count": 21,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Sun Jun 05 00:38:59 +0000 2022",
+      "id": 1533246974819901440,
+      "id_str": "1533246974819901440",
+      "text": "本日、里親会開催します! \n里親さん募集いぬ・ねこ参加します! \nお待ちしております! \nhttps://t.co/jNS9Y7SDi6\n10時～14時 \n那須塩原市錦鮨さん 駐車場内の「たんぽぽ広場」にて\n栃木県那須塩原市下永田… https://t.co/0Ik6ni8aTL",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/jNS9Y7SDi6",
+            "expanded_url": "http://tomyshouse.web.fc2.com",
+            "display_url": "tomyshouse.web.fc2.com",
+            "indices": [
+              45,
+              68
+            ]
+          },
+          {
+            "url": "https://t.co/0Ik6ni8aTL",
+            "expanded_url": "https://twitter.com/i/web/status/1533246974819901440",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1278208027,
+        "id_str": "1278208027",
+        "name": "西那須野いぬねこ里親会",
+        "screen_name": "tomyshouse",
+        "location": "栃木県那須塩原市下永田1-995",
+        "description": "栃木県那須塩原市（旧西那須野）にて、東日本大震災による福島県の被災犬猫をはじめ、 ブリーダー遺棄犬達の保護活動をしています。",
+        "url": "http://t.co/YhllyjLoV5",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/YhllyjLoV5",
+                "expanded_url": "http://tomyshouse.blog.fc2.com/",
+                "display_url": "tomyshouse.blog.fc2.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 659,
+        "friends_count": 17,
+        "listed_count": 5,
+        "created_at": "Mon Mar 18 16:36:11 +0000 2013",
+        "favourites_count": 99,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1876,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "B2DFDA",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000249150720/5197d360aa127c18b2de0b3abdf87ef6_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000249150720/5197d360aa127c18b2de0b3abdf87ef6_normal.jpeg",
+        "profile_link_color": "2DD630",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Sat Jun 04 11:27:03 +0000 2022",
+      "id": 1533047677880922112,
+      "id_str": "1533047677880922112",
+      "text": "明日、日曜日は里親会です! \n里親さん募集いぬ・ねこ参加しています\n\nたくさんの犬・猫が\nしあわせに暮らせる家族を\n待っています\n\nよいご縁がありますように\nよろしくお願いいたします!… https://t.co/M9e9a0RO7X",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/M9e9a0RO7X",
+            "expanded_url": "https://twitter.com/i/web/status/1533047677880922112",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              94,
+              117
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1278208027,
+        "id_str": "1278208027",
+        "name": "西那須野いぬねこ里親会",
+        "screen_name": "tomyshouse",
+        "location": "栃木県那須塩原市下永田1-995",
+        "description": "栃木県那須塩原市（旧西那須野）にて、東日本大震災による福島県の被災犬猫をはじめ、 ブリーダー遺棄犬達の保護活動をしています。",
+        "url": "http://t.co/YhllyjLoV5",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/YhllyjLoV5",
+                "expanded_url": "http://tomyshouse.blog.fc2.com/",
+                "display_url": "tomyshouse.blog.fc2.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 659,
+        "friends_count": 17,
+        "listed_count": 5,
+        "created_at": "Mon Mar 18 16:36:11 +0000 2013",
+        "favourites_count": 99,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1876,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "B2DFDA",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000249150720/5197d360aa127c18b2de0b3abdf87ef6_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000249150720/5197d360aa127c18b2de0b3abdf87ef6_normal.jpeg",
+        "profile_link_color": "2DD630",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 44,
+      "favorite_count": 77,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Sat Jun 04 10:10:21 +0000 2022",
+      "id": 1533028375262302208,
+      "id_str": "1533028375262302208",
+      "text": "希望薄なのは分かっているのですが、保護猫の里親さんを募集しています。\n\n年齢︰推定5〜6歳\n性別︰♀避妊済\n備考︰エイズ＋\n地域︰茨城\n\n里親詐欺怖いので、FFさんの繋がりから探しております。少しでも気になる方いらっしゃったらご連… https://t.co/Dc41KzYSPH",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Dc41KzYSPH",
+            "expanded_url": "https://twitter.com/i/web/status/1533028375262302208",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 764701867939024896,
+        "id_str": "764701867939024896",
+        "name": "楓と棗と杏",
+        "screen_name": "kaede_sheltie",
+        "location": "東北にされがちな関東",
+        "description": "アホなシェルティの楓🐶と、お転婆な雑種猫の棗😼繁殖リタイアのビビりなパピヨン杏も増えました🐶雑種犬のレイはお空組になりました2022.2.28🌈\n 保護猫s 【2017.8.16〜8.24万太郎】【9.9〜11.11遥】\nそしてオタクな飼い主。無言フォロー失礼します！",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 215,
+        "friends_count": 112,
+        "listed_count": 1,
+        "created_at": "Sun Aug 14 05:55:07 +0000 2016",
+        "favourites_count": 176,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1739,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1448893715909545985/UHmync3q_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1448893715909545985/UHmync3q_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/764701867939024896/1538485554",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 8,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Fri Jun 03 22:21:50 +0000 2022",
+      "id": 1532850072601632768,
+      "id_str": "1532850072601632768",
+      "text": "拡散御礼！ジミー クラファン猫助けさん、粘り強い拡散ありがとうございます。おかげで、栃木の首輪がついて収容の柴系の女の子ワンは、預かり様がでて、命がつながったことをku-ma　@hgwj2WODcjLjHal さん に教えて頂きま… https://t.co/fqF4DqMO7O",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "hgwj2WODcjLjHal",
+            "name": "ku-ma",
+            "id": 1212300689956687874,
+            "id_str": "1212300689956687874",
+            "indices": [
+              88,
+              104
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/fqF4DqMO7O",
+            "expanded_url": "https://twitter.com/i/web/status/1532850072601632768",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 142705159,
+        "id_str": "142705159",
+        "name": "むさ",
+        "screen_name": "unnkiup",
+        "location": "",
+        "description": "新たな自分をめざし変身模索中。出版と研究職を目指して、まず異業種の方との交流をツイッターでしてみたいです。",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 10559,
+        "friends_count": 11378,
+        "listed_count": 131,
+        "created_at": "Tue May 11 14:49:45 +0000 2010",
+        "favourites_count": 167170,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 327232,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/636864990595518464/nEwWVlep_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/636864990595518464/nEwWVlep_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/142705159/1440685091",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1532570479906721792,
+      "quoted_status_id_str": "1532570479906721792",
+      "quoted_status": {
+        "created_at": "Fri Jun 03 03:50:50 +0000 2022",
+        "id": 1532570479906721792,
+        "id_str": "1532570479906721792",
+        "text": "🆘緊急！5月31日掲載期限　里親様急募➔\n柴犬系の女の子♀首輪あり飼い主のお迎えなし　預かり・里親様命を繋いで下さる方お願いします🙏宮城県 | 秋田県 | 山形県 | 福島県 |茨城県 | 栃木県 | 群馬県 | 埼玉県 | 千葉… https://t.co/sq58wXqldJ",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/sq58wXqldJ",
+              "expanded_url": "https://twitter.com/i/web/status/1532570479906721792",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "ja",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1289108139577507840,
+          "id_str": "1289108139577507840",
+          "name": "ジミー クラファン猫助け",
+          "screen_name": "t5NhUe97r6vHdUg",
+          "location": "",
+          "description": "拡散、いいね、して頂き、有難うございます。\nこのアカウントは。\n動物関連のクラファンや、\n保護情報の、拡散を致します。\n#ねこのいる生活　#犬のいる生活 \n#多頭飼い #犬のいる幸せ #猫のいる幸せ\n#クラウドファンディング #保護猫 ＃里親募集\n#殺処分 ＃福岡県 #北九州市",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1192,
+          "friends_count": 1522,
+          "listed_count": 9,
+          "created_at": "Fri Jul 31 07:59:43 +0000 2020",
+          "favourites_count": 21759,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 381296,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1343092917083066369/3Qt3FoFo_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1343092917083066369/3Qt3FoFo_normal.jpg",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none",
+          "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1528266805101600768,
+        "quoted_status_id_str": "1528266805101600768",
+        "retweet_count": 5,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+      },
+      "retweet_count": 3,
+      "favorite_count": 6,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Fri Jun 03 14:24:01 +0000 2022",
+      "id": 1532729825470738432,
+      "id_str": "1532729825470738432",
+      "text": "里親募集しようか悩み中。\n車通りの多いところうづくまっていました。\n当方栃木県です。三毛猫長毛♀\n生後2ヶ月いかないくらい\nレボリューション済\n近々検便予定\nウイルス検査未実施\nしっかりと避妊や予防や脱走防止に\n努めてくれるご家族… https://t.co/yyHJbjE0HR",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/yyHJbjE0HR",
+            "expanded_url": "https://twitter.com/i/web/status/1532729825470738432",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3277396758,
+        "id_str": "3277396758",
+        "name": "ビビりのAceと黒みつぽっけ",
+        "screen_name": "Ace05030623",
+        "location": "栃木県",
+        "description": "🐈Ace 10歳 2012.5.3生 6.23加入🏠男の子 🐾🐾🐈‍⬛黒みつ 2歳 2020.5.15生 7.5加入🏡女の子 🐈‍⬛🎀黒みつはHIVキャリア🐱ぽっけ0歳 2022.4.中旬生6.3加入",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 273,
+        "friends_count": 337,
+        "listed_count": 7,
+        "created_at": "Sun Jul 12 12:19:24 +0000 2015",
+        "favourites_count": 2211,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1225,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1426350524861800449/zKMSF_fZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1426350524861800449/zKMSF_fZ_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3277396758/1627875623",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 5,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Fri Jun 03 10:21:10 +0000 2022",
+      "id": 1532668711089639424,
+      "id_str": "1532668711089639424",
+      "text": "【里親募集】\n\n先日レスキューでミニブタさん引き取りました。現場が東京でしたので帰った時には後部座席が破壊されてました!\n\nヤンチャなミニブタペア無償にて里親募集です。\n\nシンガプーラ世界最小の猫この子も無償里親募集です。\n\nこち… https://t.co/aG8s9BZ380",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/aG8s9BZ380",
+            "expanded_url": "https://twitter.com/i/web/status/1532668711089639424",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 832114063178018816,
+        "id_str": "832114063178018816",
+        "name": "Petshop-Ricky",
+        "screen_name": "petshopricky",
+        "location": "岩手 盛岡市大通3丁目7-21",
+        "description": "珍獣エキゾチックアニマル専門店のペットショップRickyです🎵取り扱いは哺乳類(小動物)爬虫類、鳥類、猛禽類、エキゾチックアニマルとなります。販売店舗：盛岡・秋田・青森・仙台・福島・栃木・新潟店にてお迎えOK　全国中継依頼OKですよ。\nお問い合わせ　【小動物・爬虫類専門店019-677-8434】",
+        "url": "https://t.co/y1bKgX90dl",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/y1bKgX90dl",
+                "expanded_url": "http://petshop-ricky.jimdo.com",
+                "display_url": "petshop-ricky.jimdo.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2888,
+        "friends_count": 38,
+        "listed_count": 6,
+        "created_at": "Thu Feb 16 06:27:07 +0000 2017",
+        "favourites_count": 4561,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 5689,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1361979781286293508/N1eAWYoZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1361979781286293508/N1eAWYoZ_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/832114063178018816/1523148205",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 23,
+      "favorite_count": 64,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Fri Jun 03 08:09:23 +0000 2022",
+      "id": 1532635544966279168,
+      "id_str": "1532635544966279168",
+      "text": "サビベビー里親さん募集します\n神奈川県 ♀ 生後0ヶ月 のネコちゃんです。\n #猫 #ネコ #里親 #里親募集 #神奈川県 #拡散希望 \n詳細：https://t.co/uT8SadrzFw\n写真： https://t.co/m0RZtyZStF",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              39,
+              41
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              42,
+              45
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              46,
+              49
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              50,
+              55
+            ]
+          },
+          {
+            "text": "神奈川県",
+            "indices": [
+              56,
+              61
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              62,
+              67
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/uT8SadrzFw",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176284/",
+            "display_url": "neko-jirushi.com/foster/176284/",
+            "indices": [
+              72,
+              95
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1532635543246630912,
+            "id_str": "1532635543246630912",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUUD6AVacAA_z1S.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUUD6AVacAA_z1S.jpg",
+            "url": "https://t.co/m0RZtyZStF",
+            "display_url": "pic.twitter.com/m0RZtyZStF",
+            "expanded_url": "https://twitter.com/kanagawa_foster/status/1532635544966279168/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1532635543246630912,
+            "id_str": "1532635543246630912",
+            "indices": [
+              100,
+              123
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUUD6AVacAA_z1S.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUUD6AVacAA_z1S.jpg",
+            "url": "https://t.co/m0RZtyZStF",
+            "display_url": "pic.twitter.com/m0RZtyZStF",
+            "expanded_url": "https://twitter.com/kanagawa_foster/status/1532635544966279168/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 270,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_kanagawa</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1841188466,
+        "id_str": "1841188466",
+        "name": "ネコジルシ里親募集《神奈川》",
+        "screen_name": "kanagawa_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。",
+        "url": "http://t.co/CHDKXd98g7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/CHDKXd98g7",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2763,
+        "friends_count": 1141,
+        "listed_count": 41,
+        "created_at": "Mon Sep 09 07:11:31 +0000 2013",
+        "favourites_count": 11,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9913,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000481860600/9e5eac3ee800aca0f05c6eedda4226c1_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000481860600/9e5eac3ee800aca0f05c6eedda4226c1_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1841188466/1495162306",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 25,
+      "favorite_count": 26,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Thu Jun 02 08:53:20 +0000 2022",
+      "id": 1532284216414613504,
+      "id_str": "1532284216414613504",
+      "text": "🟢店舗ボランティア募集中🟢\n\n週末は大宮日進店で\n里親探しのお手伝いしませんか🤗🌼\n\n▪︎日時：土日祝日のいずれかで、17時～2h位\n\nご応募は下記HP、又は店舗へ✨\nご連絡お待ちしてます❣️… https://t.co/zC6onkmls2",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/zC6onkmls2",
+            "expanded_url": "https://twitter.com/i/web/status/1532284216414613504",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              98,
+              121
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1274478805,
+        "id_str": "1274478805",
+        "name": "保護猫カフェねこかつ@川越@大宮日進",
+        "screen_name": "nekokatsu_1",
+        "location": "埼玉県＠川越市＠さいたま市北区",
+        "description": "いつでも家族を探している猫たちと出会うことができる保護猫カフェです。埼玉県川越市の川越店と埼玉県さいたま市北区の大宮日進店があります。ブログhttps://t.co/Qjlp8oG8tt  18歳以下は半額♪ 65歳以上の方・障がい者の方＆ご同伴1名・野良猫の餌やりさんは平日半額♪  詳しくはHPを！",
+        "url": "https://t.co/YohtKUGxd7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/YohtKUGxd7",
+                "expanded_url": "http://cafe-nekokatsu.com/",
+                "display_url": "cafe-nekokatsu.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/Qjlp8oG8tt",
+                "expanded_url": "http://ameblo.jp/cafe-nekokatsu/",
+                "display_url": "ameblo.jp/cafe-nekokatsu/",
+                "indices": [
+                  70,
+                  93
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 10843,
+        "friends_count": 367,
+        "listed_count": 162,
+        "created_at": "Sun Mar 17 09:01:33 +0000 2013",
+        "favourites_count": 5513,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 35682,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/530893510598094848/e_Hse36Z_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/530893510598094848/e_Hse36Z_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1274478805/1415410173",
+        "profile_link_color": "FFCC4D",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 11,
+      "favorite_count": 25,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Thu Jun 02 05:26:52 +0000 2022",
+      "id": 1532232258090061824,
+      "id_str": "1532232258090061824",
+      "text": "【子猫の里親さん募集します】生後1ヶ月ほどの茶トラ、ロシアンブルー風子猫ちゃん、今日は目やにをきれいにしました。6/4（土）から里親募集を開始予定です。里親希望者さんは予約無しで土日祝11～18時（最終入場17時15分）に犬猫譲渡… https://t.co/1UYVaxQpwc",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/1UYVaxQpwc",
+            "expanded_url": "https://twitter.com/i/web/status/1532232258090061824",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1007205246550962176,
+        "id_str": "1007205246550962176",
+        "name": "【東京支部】みなしご救援隊 犬猫譲渡センター",
+        "screen_name": "tokyo_inuneko",
+        "location": "東京都世田谷区玉川田園調布2-12-10-1F",
+        "description": "東京の自由が丘・田園調布エリアで飼育放棄された犬猫小動物を保護し、新しい飼い主さんを探す活動をしています。譲渡受付は土日祝日11時~18時営業、予約制ではありません。平日は不定営業。リプライでの質問はNG＆お返事しません。スタッフが保護活動に専念できるよう、お問い合わせは電話でのみ承ります。090-8996-4487",
+        "url": "https://t.co/UYQpU3R6bP",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UYQpU3R6bP",
+                "expanded_url": "https://linktr.ee/npo_inuneko",
+                "display_url": "linktr.ee/npo_inuneko",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2135,
+        "friends_count": 8,
+        "listed_count": 17,
+        "created_at": "Thu Jun 14 10:16:58 +0000 2018",
+        "favourites_count": 552,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1075,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1278195373266186242/RdjK5oQH_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1278195373266186242/RdjK5oQH_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1007205246550962176/1622101596",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 12,
+      "favorite_count": 42,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Wed Jun 01 11:20:16 +0000 2022",
+      "id": 1531958806762373120,
+      "id_str": "1531958806762373120",
+      "text": "お爺ちゃん、また猫猫猫漬けだけど、もずくさん\n良い子で留守番しててねー❣️頑張る😤\nもずくは、里親募集中です❗️\nお問い合わせは、ねこけん千葉支部まで！\n#ねこけん千葉支部　#里親募集中　#譲渡会　#圧迫排尿　#保護猫\n#拡散希望 https://t.co/xz2B18J1XP",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ねこけん千葉支部",
+            "indices": [
+              77,
+              86
+            ]
+          },
+          {
+            "text": "里親募集中",
+            "indices": [
+              87,
+              93
+            ]
+          },
+          {
+            "text": "譲渡会",
+            "indices": [
+              94,
+              98
+            ]
+          },
+          {
+            "text": "圧迫排尿",
+            "indices": [
+              99,
+              104
+            ]
+          },
+          {
+            "text": "保護猫",
+            "indices": [
+              105,
+              109
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              110,
+              115
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1531958801901166592,
+            "id_str": "1531958801901166592",
+            "indices": [
+              116,
+              139
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUKcaeXaIAA2uQM.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUKcaeXaIAA2uQM.jpg",
+            "url": "https://t.co/xz2B18J1XP",
+            "display_url": "pic.twitter.com/xz2B18J1XP",
+            "expanded_url": "https://twitter.com/rei_nekoken/status/1531958806762373120/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1536,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1531958801901166592,
+            "id_str": "1531958801901166592",
+            "indices": [
+              116,
+              139
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUKcaeXaIAA2uQM.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUKcaeXaIAA2uQM.jpg",
+            "url": "https://t.co/xz2B18J1XP",
+            "display_url": "pic.twitter.com/xz2B18J1XP",
+            "expanded_url": "https://twitter.com/rei_nekoken/status/1531958806762373120/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 900,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 1536,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1103673175869550592,
+        "id_str": "1103673175869550592",
+        "name": "れぃ🍒",
+        "screen_name": "rei_nekoken",
+        "location": "",
+        "description": "NPO法人ねこけん千葉支部の支部長さん 基本爆寝好きw",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1323,
+        "friends_count": 986,
+        "listed_count": 7,
+        "created_at": "Thu Mar 07 15:06:05 +0000 2019",
+        "favourites_count": 2930,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1758,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1103696130506780674/NMCXqNXM_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1103696130506780674/NMCXqNXM_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1103673175869550592/1551976639",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 14,
+      "favorite_count": 47,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Wed Jun 01 09:14:16 +0000 2022",
+      "id": 1531927099187273728,
+      "id_str": "1531927099187273728",
+      "text": "子猫３匹の里親を募集します\n栃木県 生後1ヶ月 のネコちゃんです。\n #猫 #ネコ #里親 #里親募集 #栃木県 #拡散希望 \n詳細：https://t.co/2F3VEx49qn\n写真： https://t.co/jJY4hH7BOG",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              35,
+              37
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              38,
+              41
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              42,
+              45
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              46,
+              51
+            ]
+          },
+          {
+            "text": "栃木県",
+            "indices": [
+              52,
+              56
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              57,
+              62
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/2F3VEx49qn",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176167/",
+            "display_url": "neko-jirushi.com/foster/176167/",
+            "indices": [
+              67,
+              90
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1531927097387941888,
+            "id_str": "1531927097387941888",
+            "indices": [
+              95,
+              118
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUJ_lB2agAAsXrT.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUJ_lB2agAAsXrT.jpg",
+            "url": "https://t.co/jJY4hH7BOG",
+            "display_url": "pic.twitter.com/jJY4hH7BOG",
+            "expanded_url": "https://twitter.com/n_kanto_foster/status/1531927099187273728/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1531927097387941888,
+            "id_str": "1531927097387941888",
+            "indices": [
+              95,
+              118
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUJ_lB2agAAsXrT.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUJ_lB2agAAsXrT.jpg",
+            "url": "https://t.co/jJY4hH7BOG",
+            "display_url": "pic.twitter.com/jJY4hH7BOG",
+            "expanded_url": "https://twitter.com/n_kanto_foster/status/1531927099187273728/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 202,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_ibaraki</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1734297127,
+        "id_str": "1734297127",
+        "name": "ネコジルシ里親募集《北関東》",
+        "screen_name": "n_kanto_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。茨城、栃木、群馬の情報が流れます",
+        "url": "http://t.co/JpuMSn1g0S",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/JpuMSn1g0S",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 816,
+        "friends_count": 123,
+        "listed_count": 14,
+        "created_at": "Fri Sep 06 06:52:27 +0000 2013",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 6282,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/773848233873334272/cBX6B5Ra_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/773848233873334272/cBX6B5Ra_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 6,
+      "favorite_count": 6,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Wed Jun 01 03:21:28 +0000 2022",
+      "id": 1531838312121397251,
+      "id_str": "1531838312121397251",
+      "text": "初めて、ある方から拡散の依頼を頂きました^ ^\n猫の里親募集です\n\n埼玉県\n生後1ヶ月〜1ヶ月半\n多分男の子\nハチワレ\nとても活発で元気な子\n人が大好きで犬も大好きです\nよく食べます\n\n少しでも気になる方はご連絡下さい\n繋げます^… https://t.co/PwmPjWwjLC",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/PwmPjWwjLC",
+            "expanded_url": "https://twitter.com/i/web/status/1531838312121397251",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1506248906165788674,
+        "id_str": "1506248906165788674",
+        "name": "Mora",
+        "screen_name": "Mora49084636",
+        "location": "",
+        "description": "マザーテレサと愛の世界。 最も愛に生きた聖人であり、一番尊敬と目標にしている存在。 オーラの泉で生き方の基盤を作り、更に高次な愛を学び、生活に活かしたい方へ 他にも、愛のあるリツイート、拡散、画像、言葉、相談等に使います。 何かで必要なら是非ご相談下さい。 ビジネス、お金儲けでの利用は一切しません。 愛に溢れます様に。",
+        "url": "https://t.co/7Vqc0XyzBO",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/7Vqc0XyzBO",
+                "expanded_url": "http://www.tiktok.com/@auranoizumi",
+                "display_url": "tiktok.com/@auranoizumi",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 32,
+        "friends_count": 3,
+        "listed_count": 0,
+        "created_at": "Tue Mar 22 12:38:39 +0000 2022",
+        "favourites_count": 37,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 297,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1506270944808955914/eym4HNIR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1506270944808955914/eym4HNIR_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1506248906165788674/1647957953",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 3,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    },
+    {
+      "created_at": "Tue May 31 16:10:25 +0000 2022",
+      "id": 1531669438059397122,
+      "id_str": "1531669438059397122",
+      "text": "里親募集\n東京都 ♀ 生後4才5ヶ月 のネコちゃんです。\n #猫 #ネコ #里親 #里親募集 #東京都 #拡散希望 \n詳細：https://t.co/urYAXloTIN\n写真： https://t.co/QZeZmJOejl",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "猫",
+            "indices": [
+              30,
+              32
+            ]
+          },
+          {
+            "text": "ネコ",
+            "indices": [
+              33,
+              36
+            ]
+          },
+          {
+            "text": "里親",
+            "indices": [
+              37,
+              40
+            ]
+          },
+          {
+            "text": "里親募集",
+            "indices": [
+              41,
+              46
+            ]
+          },
+          {
+            "text": "東京都",
+            "indices": [
+              47,
+              51
+            ]
+          },
+          {
+            "text": "拡散希望",
+            "indices": [
+              52,
+              57
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/urYAXloTIN",
+            "expanded_url": "https://www.neko-jirushi.com/foster/176140/",
+            "display_url": "neko-jirushi.com/foster/176140/",
+            "indices": [
+              62,
+              85
+            ]
+          }
+        ],
+        "media": [
+          {
+            "id": 1531669435920314368,
+            "id_str": "1531669435920314368",
+            "indices": [
+              90,
+              113
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUGVPKFacAAJ6Oe.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUGVPKFacAAJ6Oe.jpg",
+            "url": "https://t.co/QZeZmJOejl",
+            "display_url": "pic.twitter.com/QZeZmJOejl",
+            "expanded_url": "https://twitter.com/tokyo_foster/status/1531669438059397122/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1531669435920314368,
+            "id_str": "1531669435920314368",
+            "indices": [
+              90,
+              113
+            ],
+            "media_url": "http://pbs.twimg.com/media/FUGVPKFacAAJ6Oe.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FUGVPKFacAAJ6Oe.jpg",
+            "url": "https://t.co/QZeZmJOejl",
+            "display_url": "pic.twitter.com/QZeZmJOejl",
+            "expanded_url": "https://twitter.com/tokyo_foster/status/1531669438059397122/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 311,
+                "h": 360,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "ja",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.neko-jirushi.com/\" rel=\"nofollow\">nekojirushi_foster_tokyo</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1840302391,
+        "id_str": "1840302391",
+        "name": "ネコジルシ里親募集《東京》",
+        "screen_name": "tokyo_foster",
+        "location": "",
+        "description": "ネコ好き限定SNS「ネコジルシ」の地域別里親募集情報です。",
+        "url": "http://t.co/6avUBpLLul",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/6avUBpLLul",
+                "expanded_url": "http://www.neko-jirushi.com/foster/",
+                "display_url": "neko-jirushi.com/foster/",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2719,
+        "friends_count": 1320,
+        "listed_count": 34,
+        "created_at": "Mon Sep 09 05:51:25 +0000 2013",
+        "favourites_count": 8,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9202,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000481854986/c8d178dc9dcb595e4eaf7702f16d8900_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000481854986/c8d178dc9dcb595e4eaf7702f16d8900_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1840302391/1495162032",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 39,
+      "favorite_count": 21,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "ja"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.09,
+    "max_id": 1534519734539911168,
+    "max_id_str": "1534519734539911168",
+    "next_results": "?max_id=1531669438059397121&q=%E9%87%8C%E8%A6%AA%20%E7%8C%AB%20%E5%8B%9F%E9%9B%86%20%28%E7%A5%9E%E5%A5%88%E5%B7%9D%20OR%20%E6%9D%B1%E4%BA%AC%20OR%20%E7%BE%A4%E9%A6%AC%20OR%20%E5%8D%83%E8%91%89%20OR%20%E5%9F%BC%E7%8E%89%20OR%20%E6%A0%83%E6%9C%A8%20OR%20%E8%8C%A8%E5%9F%8E%29%20-%40%20filter%3Atwimg%20-filter%3Aretweets&count=100&include_entities=1&result_type=recent",
+    "query": "%E9%87%8C%E8%A6%AA+%E7%8C%AB+%E5%8B%9F%E9%9B%86+%28%E7%A5%9E%E5%A5%88%E5%B7%9D+OR+%E6%9D%B1%E4%BA%AC+OR+%E7%BE%A4%E9%A6%AC+OR+%E5%8D%83%E8%91%89+OR+%E5%9F%BC%E7%8E%89+OR+%E6%A0%83%E6%9C%A8+OR+%E8%8C%A8%E5%9F%8E%29+-%40+filter%3Atwimg+-filter%3Aretweets",
+    "refresh_url": "?since_id=1534519734539911168&q=%E9%87%8C%E8%A6%AA%20%E7%8C%AB%20%E5%8B%9F%E9%9B%86%20%28%E7%A5%9E%E5%A5%88%E5%B7%9D%20OR%20%E6%9D%B1%E4%BA%AC%20OR%20%E7%BE%A4%E9%A6%AC%20OR%20%E5%8D%83%E8%91%89%20OR%20%E5%9F%BC%E7%8E%89%20OR%20%E6%A0%83%E6%9C%A8%20OR%20%E8%8C%A8%E5%9F%8E%29%20-%40%20filter%3Atwimg%20-filter%3Aretweets&result_type=recent&include_entities=1",
+    "count": 100,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
