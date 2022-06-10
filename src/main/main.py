@@ -1,8 +1,8 @@
 # coding: UTF-8
-import config
+import propeties.config
 from requests_oauthlib import OAuth1Session
-from tweet_operation import retweet
-from tweet_search import search_id
+from tweet.tweet_operation import retweet
+from tweet.tweet_search import search_id
 import psycopg2
 
 # TwitterAPI OAuth1認証情報取得
