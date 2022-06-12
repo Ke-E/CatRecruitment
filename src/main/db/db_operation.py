@@ -2,10 +2,13 @@
 import psycopg2
 
 def is_retweeted(conn, tweet_id):
-    cur = conn.cursor()
-    cur.execute('select * from hoge where id >= 10000')
-    res = cur.fetchall()
-    print(res)
-    cur.close()
-    conn.close()
-    return #Boolean
+    try:
+        cur = conn.cursor()
+        cur.execute('select count(tweet_id) from RETWEET_HISTORY where tweet_id = ' + str(tweet_id))
+        res = cur.fetchone()
+
+    finally:
+        if(cur):
+            cur.close()
+    
+    return res[0]

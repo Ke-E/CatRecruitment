@@ -3,8 +3,10 @@ import re
 import urllib
 import json
 import requests
-import config
-from db_operation import search_retweet_history
+import sys
+sys.path.append('../')
+from propeties import config
+from db import db_operation
 
 def search_id(conn, oauth, query):
     query = urllib.parse.quote(query)
@@ -18,8 +20,9 @@ def search_id(conn, oauth, query):
         f.close()
 
     for tweet in timeline["statuses"]:
-        result = is_retweeted(conn, tweet["id"])
+        result = db_operation.is_retweeted(conn, tweet["id"])
         if result == False:
+            print("新規投稿！！")
             return tweet["id"]
     
     print("新規投稿無し")
