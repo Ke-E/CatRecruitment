@@ -23,7 +23,8 @@ def tweet_search(conn, oauth, query):
         result = db_operation.is_retweeted(conn, tweet["id"])
         if result == False:
             print("新規投稿！！")
-            return tweet["id"]
+            print(tweet['text'])
+            return tweet
 
     print("新規投稿無し")
     return None
