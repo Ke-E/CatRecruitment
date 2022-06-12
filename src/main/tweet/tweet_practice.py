@@ -8,7 +8,7 @@ import config
 
 
 ##取得したレスポンスの格納先
-FILEPATH = "/Users/k.enomoto/Desktop/workspace/Twitter API/response.json"
+FILEPATH = "/Users/****/Desktop/workspace/Twitter API/response.json"
 
 twitter = get_oauth()
 

@@ -24,6 +24,6 @@ def search_id(conn, oauth, query):
         if result == False:
             print("新規投稿！！")
             return tweet["id"]
-    
+
     print("新規投稿無し")
     return None
