@@ -8,7 +8,7 @@ sys.path.append('../')
 from propeties import config
 from db import db_operation
 
-def search_id(conn, oauth, query):
+def tweet_search(conn, oauth, query):
     query = urllib.parse.quote(query)
     url = config.API_URL1 + "/search/tweets.json?q=" + query + "&result_type=recent&count=100"
     res = oauth.get(url)

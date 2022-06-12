@@ -2,7 +2,7 @@
 import psycopg2
 from propeties import config
 from requests_oauthlib import OAuth1Session
-from tweet import tweet_operation, tweet_search
+from tweet import tweet_operation, search_cat_recruitment
 
 
 # TwitterAPI OAuth1認証情報取得
@@ -31,7 +31,7 @@ try:
     ### tweet_operation の中に内包されていてもおかしくないし
 
     # ツイート検索
-    tweet_id = tweet_search.search_id(conn, oauth, query)
+    tweet_id = search_cat_recruitment.tweet_search(conn, oauth, query)
 
     if tweet_id != None:
         # リツイート
