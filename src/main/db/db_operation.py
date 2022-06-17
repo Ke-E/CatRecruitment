@@ -18,9 +18,15 @@ class DbOperation:
 
 
     def is_retweeted(self, tweet_id):
+
+        path = config.ROOT_PATH + '/src/sql/ddl/read/is_retweeted.sql'
+        with open(path, 'r') as f:
+            query = f.read()
         try:
             cur = self.conn.cursor()
-            cur.execute('select count(tweet_id) from RETWEET_HISTORY where tweet_id = ' + str(tweet_id))
+            cur.execute(query, {
+                'tweet_id':tweet_id
+            })
             res = cur.fetchone()
 
         finally:
@@ -32,13 +38,14 @@ class DbOperation:
 
     ### 本メソッドから呼び出されるメソッドは全て動作未確認
     def insert_retweet_info(self, tweet, query_id):
+
         try:
             cur = self.conn.cursor()
-            self.insert_retweet_history(cur, tweet, query_id)
-            self.insert_tweet_info(cur, tweet)
-            self.insert_use_hashtag_history(cur, tweet)
-            self.insert_user_info()
-            # ②class化
+
+            self.__insert_retweet_history(cur, tweet, query_id)
+            self.__insert_tweet_info(cur, tweet)
+            self.__insert_use_hashtag_history(cur, tweet)
+            self.__insert_user_info()
 
             cur.commit()
         finally:
@@ -46,10 +53,10 @@ class DbOperation:
 
 
 
-    def insert_retweet_history(cur, tweet, used_query_id):
+    def __insert_retweet_history(cur, tweet, used_query_id):
 
-        insert_retweet_history = config.ROOT_PATH + '/src/sql/ddl/insert_retweet_history.sql'
-        with open(insert_retweet_history, 'r') as f:
+        path = config.ROOT_PATH + '/src/sql/ddl/create/insert_retweet_history.sql'
+        with open(path, 'r') as f:
             query = f.read()
 
         cur.execute(query, {
@@ -59,10 +66,10 @@ class DbOperation:
         })
 
 
-    def insert_tweet_info(self, cur, tweet):
+    def __insert_tweet_info(self, cur, tweet):
 
-        insert_tweet_info = config.ROOT_PATH + '/src/sql/ddl/insert_tweet_info.sql'
-        with open(insert_tweet_info, 'r')as f:
+        path = config.ROOT_PATH + '/src/sql/ddl/create/insert_tweet_info.sql'
+        with open(path, 'r')as f:
             query = f.read()
 
         cur.execute(query, {
@@ -75,10 +82,10 @@ class DbOperation:
         })
 
 
-    def insert_use_hashtag_history(cur, tweet):
+    def __insert_use_hashtag_history(cur, tweet):
 
-        insert_use_hashtag_history = config.ROOT_PATH + '/src/sql/ddl/insert_use_hashtag_history.sql'
-        with open(insert_use_hashtag_history, 'r')as f:
+        path = config.ROOT_PATH + '/src/sql/ddl/create/insert_use_hashtag_history.sql'
+        with open(path, 'r')as f:
             query = f.read()
         for hashtag in tweet['entities']['hashtags']:
             cur.execute(query, {
@@ -87,10 +94,10 @@ class DbOperation:
         })
 
 
-    def insert_user_info(cur, tweet):
+    def __insert_user_info(cur, tweet):
 
-        insert_user_info = config.ROOT_PATH + '/src/sql/ddl/insert_user_info.sql'
-        with open(insert_user_info, 'r')as f:
+        path = config.ROOT_PATH + '/src/sql/ddl/create/insert_user_info.sql'
+        with open(path, 'r')as f:
             query = f.read()
         for user in tweet['user']:
             cur.execute(query, {
@@ -104,7 +111,7 @@ class DbOperation:
             })
 
 
-    def __format_datetime(self, dt):
+    def __format_datetime(dt):
         twitter_format = '%a %b %d %H:%M:%S %z %Y'
         local_format = '%Y/%m/%d %H:%M:%S'
         return datetime_util.convert_to_jst(dt, twitter_format, local_format)
