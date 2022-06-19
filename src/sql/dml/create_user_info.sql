@@ -1,6 +1,6 @@
 create table USER_INFO (
-    user_id integer,
-    tweet_id integer,
+    user_id bigint,
+    tweet_id bigint,
     name varchar(50) Not Null,
     screen_name varchar(15) Not Null,
     location varchar(30),

@@ -1,7 +1,7 @@
 insert into
  USER_INFO
 values (
-    %(user_if)s,
+    %(user_id)s,
     %(tweet_id)s,
     %(name)s,
     %(screen_name)s,

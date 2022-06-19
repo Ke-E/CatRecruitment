@@ -1,5 +1,5 @@
 create table USE_HASHTAG_HISTORY (
-    tweet_id integer,
+    tweet_id bigint,
     hashtag varchar(100),
     Primary Key(tweet_id, hashtag)
 );

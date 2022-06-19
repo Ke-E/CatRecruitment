@@ -1,8 +1,8 @@
 create table SEARCH_QUERY (
     query_id integer Not Null,
     query varchar(200) Not Null,
-    delete_flg boolean,
-    ins_tm timestamp Not Null
+    delete_flg boolean DEFAULT FALSE Not Null,
+    ins_tm timestamp DEFAULT CURRENT_TIMESTAMP Not Null
 );
 -- コメント
 comment on table SEARCH_QUERY is '検索クエリ';

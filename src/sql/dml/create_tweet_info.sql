@@ -1,5 +1,5 @@
 create table TWEET_INFO (
-    tweet_id integer Primary Key,
+    tweet_id bigint Primary Key,
     tweet_url varchar(100) Not Null,
     text varchar(280) Not Null,
     media_url varchar(60),

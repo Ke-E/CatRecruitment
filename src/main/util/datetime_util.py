@@ -8,4 +8,4 @@ from propeties import config
 def convert_to_jst(utc, before_format, after_format):
     utc_dt = datetime.datetime.strptime(utc, before_format)
     jst_dt = utc_dt.astimezone(config.JST)
-    return datetime.datetime(jst_dt, after_format)
+    return jst_dt

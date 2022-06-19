@@ -1,7 +1,7 @@
 create table RETWEET_HISTORY (
-    tweet_id integer Not Null,
+    tweet_id bigint Not Null,
     used_query_id integer Not Null,
-    retweet_tm timestamp Not Null
+    retweet_tm timestamp default CURRENT_TIMESTAMP Not Null
 );
 -- コメント
 comment on table RETWEET_HISTORY is 'リツイート履歴';
