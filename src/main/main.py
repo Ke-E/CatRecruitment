@@ -9,6 +9,9 @@ from db.db_operation import DbOperation
 # sqlファイルのインデント調整
 # コメント付与
 # search_query の id はインクリメントにしても良さそう
+# ログを出したい
+# media の取得で keyerror（画像がないと media がない）
+# →そも media があるツイートを検索対象にしていた気が
 
 # TwitterAPI OAuth1認証情報取得
 oauth = OAuth1Session(
@@ -21,22 +24,25 @@ oauth = OAuth1Session(
 constr = "host='localhost' port=5432 dbname=cat_recruitment"
 # 本当は右記も入れるが、今はこれでいい 「user=yamada password='hoge1234'」
 
+# コネクションの取得
 with psycopg2.connect(constr) as conn:
 
-    # データベース操作を行うインスタンスの取得
+    # 各種インスタンスの取得
     db_operation = DbOperation(conn)
+    tweet_operation = TweetOperation(oauth)
+
+    # 登録されているクエリ情報を取得
     for query_info in db_operation.get_queries():
 
         query_id = query_info[0]
         query = query_info[1]
-        print('実行クエリ：' + query)
+        print('----- 【実行クエリ：' + query + '】 -----')
 
         # ツイート検索
-        tweet_operation = TweetOperation(oauth)
         timeline = tweet_operation.search_tweet(query)
 
-
         for tmp_tweet in timeline['statuses']:
+            # リツイート履歴がなければ処理対象
             if db_operation.is_retweeted(tmp_tweet['id']) == False:
                 print('新規ツイート：' + str(tmp_tweet['id']))
                 tweet = tmp_tweet
@@ -45,15 +51,16 @@ with psycopg2.connect(constr) as conn:
                 print('リツイート済み：' + str(tmp_tweet['id']))
         else:
             print('全件リツイート済み')
+            continue
 
-        if tweet != None:
-            db_operation.insert_retweet_info(tweet, query_id)
-            # リツイート
-            response_code = tweet_operation.retweet(tweet['id'])
-            if response_code == 200:
-                # query_id は一旦固定
-                print('処理完了')
-                break
+#        if tweet != None:
+        db_operation.insert_retweet_info(tweet, query_id)
+        # リツイート
+        response_code = tweet_operation.retweet(tweet['id'])
+        if response_code == 200:
+            # query_id は一旦固定
+            print('処理完了')
+            break
     else:
         print('処理対象なし')
 
