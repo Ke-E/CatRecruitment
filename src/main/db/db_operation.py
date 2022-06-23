@@ -85,6 +85,8 @@ class DbOperation:
             'tweet_url':tweet['entities']['urls'][0]['url'],
             'text':tweet['text'],
             'media_url':tweet['entities']['media'][0]['media_url_https'],
+            # tweet['entities'].get('media', {}).get(0, {}).get('media_url_https', None)
+            # これで行けるっぽいが冗長か
             'user_id':tweet['user']['id'],
             'tweet_tm':self.__format_datetime(tweet['created_at'])
         })
