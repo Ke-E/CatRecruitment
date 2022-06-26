@@ -12,9 +12,9 @@ from util import datetime_util
 class DbOperation:
 
     # コネクション
-    cunn = None
+    __cunn = None
     def __init__(self, conn):
-        self.conn = conn
+        self.__conn = conn
     # sqlファイルのインデント統一
 
     def get_queries(self):
@@ -23,7 +23,7 @@ class DbOperation:
         with open(path, 'r') as f:
             query = f.read()
 
-        with self.conn.cursor() as cur:
+        with self.__conn.cursor() as cur:
             cur.execute(query)
             res = cur.fetchall()
         print(res)
@@ -36,7 +36,7 @@ class DbOperation:
         with open(path, 'r') as f:
             query = f.read()
 
-        with self.conn.cursor() as cur:
+        with self.__conn.cursor() as cur:
             cur.execute(query, {
                 'tweet_id':tweet_id
             })
@@ -48,13 +48,12 @@ class DbOperation:
     ### 本メソッドから呼び出されるメソッドは全て動作未確認
     def insert_retweet_info(self, tweet, query_id):
 
-        with self.conn.cursor() as cur:
+        with self.__conn.cursor() as cur:
 
             self.__insert_retweet_history(cur, tweet, query_id)
             self.__insert_tweet_info(cur, tweet)
             self.__insert_use_hashtag_history(cur, tweet)
             self.__insert_user_info(cur, tweet)
-            self.conn.commit()
 
 
     def __insert_retweet_history(self, cur, tweet, used_query_id):
@@ -66,7 +65,6 @@ class DbOperation:
         cur.execute(query, {
             'tweet_id':tweet['id'],
             'used_query_id':used_query_id
-            #'retweet_tm':datetime.datetime.now(config.JST) #.strftime('%Y/%m/%d %H:%M:%S')
         })
 
 
@@ -82,12 +80,7 @@ class DbOperation:
 
         cur.execute(query, {
             'tweet_id':tweet['id'],
-            'tweet_url':tweet['entities']['urls'][0]['url'],
             'text':tweet['text'],
-            'media_url':tweet['entities']['media'][0]['media_url_https'],
-            # tweet['entities'].get('media', {}).get(0, {}).get('media_url_https', None)
-            # これで行けるっぽいが冗長か
-            'user_id':tweet['user']['id'],
             'tweet_tm':self.__format_datetime(tweet['created_at'])
         })
 
