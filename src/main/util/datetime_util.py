@@ -4,8 +4,12 @@ import sys
 sys.path.append('../')
 from propeties import config
 
-# 文字列で送られてきたタイムゾーン[UTC]の日付を datetime 形式かつ JST に変換して返す
-def convert_to_jst(utc, before_format, after_format):
-    utc_dt = datetime.datetime.strptime(utc, before_format)
-    jst_dt = utc_dt.astimezone(config.JST)
-    return jst_dt
+def convert_to_jst(dt, format):
+    """文字列で送られてきた日時情報を datetime 形式かつ JST に変換して返す
+
+    Args:
+        dt (string): 文字列の日時情報
+        format (string): 引数「datetime」のフォーマット情報
+
+    """
+    return datetime.datetime.strptime(dt, format).astimezone(config.JST)

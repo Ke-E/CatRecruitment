@@ -42,6 +42,7 @@ with psycopg2.connect(constr) as conn:
         timeline = tweet_operation.search_tweet(query)
 
         for tmp_tweet in timeline['statuses']:
+
             # リツイート履歴がなければ処理対象
             if db_operation.is_retweeted(tmp_tweet['id']) == False:
                 print('新規ツイート：' + str(tmp_tweet['id']))
@@ -62,13 +63,12 @@ with psycopg2.connect(constr) as conn:
             conn.commit()
             break
         else:
-            # リツイートに失敗した場合はロールバックし処理を終了
+            # リツイートに失敗した場合はロールバックし、処理を終了
             print('リツイートに失敗しました。')
             conn.rollback()
             break
     else:
         print('処理対象なし')
-
 
 
 print('===== 処理終了 =====')
