@@ -1,10 +1,13 @@
 # coding: UTF-8
+import sys
+sys.path.append('../')
 import psycopg2
 from propeties import config
 from requests_oauthlib import OAuth1Session
 from tweet.tweet_operation import TweetOperation
 from db.db_operation import DbOperation
 
+# レスポンスの異常検知
 # 全体のリファクタリング
 # sqlファイルのインデント調整
 # コメント付与
@@ -38,22 +41,25 @@ with psycopg2.connect(constr) as conn:
         query = query_info[1]
         print('----- 【実行クエリ：' + query + '】 -----')
 
-        # ツイート検索
-        timeline = tweet_operation.search_tweet(query)
+        try:
+            # ツイート検索
+            timeline = tweet_operation.search_tweet(query)
+            for tmp_tweet in timeline['statuses']:
+                print('ツイートID：' + str(tmp_tweet['id']))
+                # リツイート履歴がなければ処理対象
+                if db_operation.is_retweeted(tmp_tweet['id']) == False:
+                    tweet = tmp_tweet
+                    break
 
-        for tmp_tweet in timeline['statuses']:
-
-            # リツイート履歴がなければ処理対象
-            if db_operation.is_retweeted(tmp_tweet['id']) == False:
-                print('新規ツイート：' + str(tmp_tweet['id']))
-                tweet = tmp_tweet
-                break
             else:
-                print('リツイート済み：' + str(tmp_tweet['id']))
-        else:
-            # 全件リツイート済みである場合は次のクエリへ
-            print('全件リツイート済み')
-            continue
+                # 全件リツイート済みである場合は次のクエリへ
+                print('全件リツイート済み')
+                continue
+
+        except AttributeError as e:
+            # 想定される key が存在しない or ツイート取得に失敗した場合は処理を終了
+            print(e)
+            sys.exit()
 
         # ツイート情報の登録
         db_operation.insert_retweet_info(tweet, query_id)
