@@ -19,6 +19,7 @@ class DbOperation:
         __conn (Connection): クラス内で使用するDBコネクション
 
     """
+
     __twitter_dt_format = '%a %b %d %H:%M:%S %z %Y'
     __cunn = None
     def __init__(self, conn):

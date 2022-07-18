@@ -1,6 +1,4 @@
-insert into
- USER_INFO
-values (
+insert into USER_INFO values (
     %(user_id)s,
     %(tweet_id)s,
     %(name)s,

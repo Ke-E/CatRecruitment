@@ -2,6 +2,8 @@
 import sys
 sys.path.append('../')
 import psycopg2
+import json
+from logging import getLogger, config as logging_config
 from propeties import config
 from requests_oauthlib import OAuth1Session
 from tweet.tweet_operation import TweetOperation
@@ -9,10 +11,15 @@ from db.db_operation import DbOperation
 
 # レスポンスの異常検知
 # 全体のリファクタリング
-# sqlファイルのインデント調整
-# コメント付与
 # search_query の id はインクリメントにしても良さそう
-# ログを出したい
+
+# loggerの設定
+with open(config.ROOT_PATH + config.LOG_CONFIG_PATH, 'r') as f:
+    log_conf = json.load(f)
+
+logging_config.dictConfig(log_conf)
+logger = getLogger('main')
+
 
 # TwitterAPI OAuth1認証情報取得
 oauth = OAuth1Session(
@@ -25,7 +32,7 @@ oauth = OAuth1Session(
 constr = "host='localhost' port=5432 dbname=cat_recruitment"
 # 本当は右記も入れるが、今はこれでいい 「user=yamada password='hoge1234'」
 
-print('===== 処理開始 =====')
+logger.info('▽▽▽▽▽ 処理開始 ▽▽▽▽▽')
 # コネクションの取得
 with psycopg2.connect(constr) as conn:
 
@@ -39,26 +46,26 @@ with psycopg2.connect(constr) as conn:
         # 必要情報を取得しておく
         query_id = query_info[0]
         query = query_info[1]
-        print('----- 【実行クエリ：' + query + '】 -----')
+        logger.info('----- 【実行クエリ： {} 】 -----'.format(query))
 
         try:
             # ツイート検索
             timeline = tweet_operation.search_tweet(query)
             for tmp_tweet in timeline['statuses']:
-                print('ツイートID：' + str(tmp_tweet['id']))
                 # リツイート履歴がなければ処理対象
                 if db_operation.is_retweeted(tmp_tweet['id']) == False:
+                    logger.info('処理対象ツイートID：{}'.format(str(tmp_tweet['id'])))
                     tweet = tmp_tweet
                     break
 
             else:
                 # 全件リツイート済みである場合は次のクエリへ
-                print('全件リツイート済み')
+                logger.info('全件リツイート済み')
                 continue
 
         except AttributeError as e:
             # 想定される key が存在しない or ツイート取得に失敗した場合は処理を終了
-            print(e)
+            logger.error(e)
             sys.exit()
 
         # ツイート情報の登録
@@ -70,14 +77,14 @@ with psycopg2.connect(constr) as conn:
             break
         else:
             # リツイートに失敗した場合はロールバックし、処理を終了
-            print('リツイートに失敗しました。')
+            logger.error('リツイートに失敗しました。')
             conn.rollback()
             break
     else:
-        print('処理対象なし')
+        logger.info('処理対象なし')
 
 
-print('===== 処理終了 =====')
+logger.info('▲▲▲▲▲ 処理終了 ▲▲▲▲▲')
 
 
 
