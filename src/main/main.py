@@ -5,13 +5,14 @@ import psycopg2
 import json
 from logging import getLogger, config as logging_config
 from propeties import config
+from util import datetime_util
 from requests_oauthlib import OAuth1Session
 from tweet.tweet_operation import TweetOperation
 from db.db_operation import DbOperation
 
+
 # レスポンスの異常検知
 # 全体のリファクタリング
-# search_query の id はインクリメントにしても良さそう
 
 # loggerの設定
 with open(config.ROOT_PATH + config.LOG_CONFIG_PATH, 'r') as f:
@@ -45,15 +46,16 @@ with psycopg2.connect(constr) as conn:
 
         # 必要情報を取得しておく
         query_id = query_info[0]
-        query = query_info[1]
+        query = query_info[1] + datetime_util.create_query_format_datetime()
         logger.info('----- 【実行クエリ： {} 】 -----'.format(query))
 
         try:
             # ツイート検索
             timeline = tweet_operation.search_tweet(query)
+
             for tmp_tweet in timeline['statuses']:
                 # リツイート履歴がなければ処理対象
-                if db_operation.is_retweeted(tmp_tweet['id']) == False:
+                if not db_operation.is_retweeted(tmp_tweet['id']):
                     logger.info('処理対象ツイートID：{}'.format(str(tmp_tweet['id'])))
                     tweet = tmp_tweet
                     break

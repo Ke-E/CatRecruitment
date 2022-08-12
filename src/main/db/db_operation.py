@@ -24,6 +24,10 @@ class DbOperation:
     __cunn = None
     def __init__(self, conn):
         self.__conn = conn
+        """DBコネクションを渡すコンストラクタ
+
+        DB接続に使用するコネクションを引数で受け取り、格納する
+        """
 
     def get_queries(self):
         """ツイート検索に使用するクエリ一覧を取得する
