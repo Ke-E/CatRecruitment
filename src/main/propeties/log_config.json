@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "simple": {
+            "format": "%(asctime)s %(filename)s:%(lineno)s [%(levelname)s]: %(message)s",
+            "datefmt":"%Y-%m-%d %H:%M:%S"
+        }
+    },
+    "handlers": {
+        "consoleHandler": {
+            "class": "logging.StreamHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "stream": "ext://sys.stdout"
+        },
+        "fileHandler": {
+            "class": "logging.FileHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "filename": "/Users/k.enomoto/GitWorkspace/CatRecruitment/log/python.log"
+        }
+    },
+    "loggers": {
+        "main": {
+            "level": "DEBUG",
+            "handlers": ["consoleHandler", "fileHandler"],
+            "propagate": false
+        }
+    },
+    "root": {
+        "level": "INFO"
+    }
+}

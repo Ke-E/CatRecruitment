@@ -20,6 +20,23 @@ class TweetOperation:
         self.__oauth = oauth
 
 
+    def tweet(self, tweet_text):
+        """引数に渡されたテキストでツイートを行う
+
+        Args:
+            tweet_text (string): ツイート内容
+        """
+        api_url = config.API_URL1 + "/statuses/update.json"
+
+        # リクエストボディ
+        params = {
+            "status": tweet_text
+        }
+
+        res = self.__oauth.post(url=api_url, data=params)
+        return res.status_code
+
+
     def retweet(self, tweet_id):
         """引数のツイートIDであるツイートをリツイートする
 
@@ -34,6 +51,8 @@ class TweetOperation:
 
     def search_tweet(self, query):
         """引数のクエリを用いてツイート検索を行う
+
+        クエリの内容に関わらず、並び順は最新、最大100件とする
 
         Args:
             query (string): ツイート検索に使用するクエリ
