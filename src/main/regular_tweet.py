@@ -5,10 +5,8 @@ import psycopg2
 import json
 from logging import getLogger, config as logging_config
 from propeties import config
-from util import datetime_util
 from requests_oauthlib import OAuth1Session
 from tweet.tweet_operation import TweetOperation
-from db.db_operation import DbOperation
 
 
 # レスポンスの異常検知
