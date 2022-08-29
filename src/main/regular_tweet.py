@@ -7,18 +7,14 @@ from logging import getLogger, config as logging_config
 from propeties import config
 from requests_oauthlib import OAuth1Session
 from tweet.tweet_operation import TweetOperation
-
+from logger.logger import Logger
 
 # レスポンスの異常検知
 # 全体のリファクタリング
 
 # loggerの設定
-with open(config.ROOT_PATH + config.LOG_CONFIG_PATH, 'r') as f:
-    log_conf = json.load(f)
-
-logging_config.dictConfig(log_conf)
-logger = getLogger('main')
-
+logger_is = Logger()
+logger = logger_is.get_logger()
 
 # TwitterAPI OAuth1認証情報取得
 oauth = OAuth1Session(
