@@ -13,11 +13,9 @@ from logger.logger import Logger
 
 
 # レスポンスの異常検知
-# 全体のリファクタリング
 
 # loggerの設定
-logger_is = Logger()
-logger = logger_is.get_logger()
+logger = Logger().get_logger()
 
 # TwitterAPI OAuth1認証情報取得
 oauth = OAuth1Session(
